@@ -17,7 +17,7 @@ key-auth with redis
 2. 设置相应的配置
 
 	| 名称 | 类型 | 默认值  | 说明 |
-| ----------- | --------- |---|---|
+| ----------- | --------- | --- | --- |
 | key_names | string | function   |自定义api_key的名称（一般设为token）|
 | hide_credentials | boolean |false   |一个可选的布尔值，指示插件将凭据隐藏到上游API服务器。在代理请求之前，它将被Kong删除。|
 | anonymous | string |  \`\` |如果身份验证失败，则可以使用可选的字符串（消费者uuid）值作为“匿名”消费者。如果为空（默认），则请求将失败并发送身份验证失败4xx |
