@@ -1,6 +1,6 @@
 # kong-plugin-auth-redis/ key-auth-redis
 This is a kong plugin tested under 300,000 rps circumstance.
-经受十万级别并发请求的权限认证组件
+十万级别并发请求验证的Kong网关redis权限认证组件
 
 ## 简介
 key-auth with redis
