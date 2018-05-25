@@ -5,6 +5,11 @@ This is a kong plugin tested under 300,000 rps circumstance.
 ## 简介
 key-auth with redis
 
+## 如何使用
+本插件基于 Kong 10 版本开发.
+使用前请安装Kong 10, 然后把`key-auth-redis` 复制到 **${KongPath}/plugins** 目录下, 
+并配置`kong-cluster.conf` (在custome_plugins 中添加key-auth-redis插件, 如要使用限流功能, 请添加general-limiting插件)
+
 ## 功能
 1. 可连接单个redis；
 2. 根据redis查询得到key(token)；
