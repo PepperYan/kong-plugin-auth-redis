@@ -16,7 +16,7 @@ key-auth with redis
 1. 通过`kong api`或者`kong dashboard`，为指定API注册插件`key-auth-redis`
 2. 设置相应的配置
 
-	| 名称 | 类型 | 默认值  | 说明 |
+| 名称 | 类型 | 默认值  | 说明 |
 | ----------- | --------- | --- | --- |
 | key_names | string | function   |自定义api_key的名称（一般设为token）|
 | hide_credentials | boolean |false   |一个可选的布尔值，指示插件将凭据隐藏到上游API服务器。在代理请求之前，它将被Kong删除。|
